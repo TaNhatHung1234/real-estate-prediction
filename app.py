@@ -8,7 +8,7 @@ from dss import RealEstateDSS
 model = joblib.load("house_model.pkl")
 
 # Load DSS
-dss = RealEstateDSS("vietnam_housing_dataset.csv")
+dss = RealEstateDSS("housing_dataset_compare.csv")
 
 st.title("🏠 Real Estate DSS")
 st.subheader("Decision Support System for Real Estate Sellers")
